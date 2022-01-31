@@ -1,0 +1,104 @@
+main{
+    width: 1200px;
+    background-color: black;
+    border: 20px solid black;
+    margin: 0px auto;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div#logo{
+    float: left;
+}
+div>p#tieude{
+    color: white;
+    float: right;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: tomato;
+    font-size: 25px;
+}
+div#subnav{
+    float: left;
+    margin-top: 100px;
+}
+div#hright{
+    float: right;
+    margin-top: 90px;
+    margin-right: 30px;
+}
+nav{
+    clear: both;
+    background-color: red;
+    height: 50px;
+}
+nav>ul{
+    float: left;
+
+}
+nav>div{
+    float: right;
+    border: gray 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    height: 45px;
+    padding: 1px;
+}    
+nav>ul>li{
+    float: left;
+    padding: 10px;
+    list-style: none;
+} 
+nav>ul>li:hover{
+    background-color: tomato;
+}
+nav>ul>li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    color: yellow;
+    text-decoration: none;
+}
+nav>ul>li:hover a{
+    color: red;
+}
+aside#left{
+    width: 18%;
+    float: left;
+    background-color: gainsboro;
+    height: auto;
+}
+section{
+    width: 64%;
+    float: left;
+    background-color:black;
+    height: auto;
+}
+aside#right{
+    float: right;
+    width: 18%;
+    background-color: gainsboro;
+    height: 550px;
+}
+footer{
+    clear: both;
+    height: 80px;
+    background-color: tomato;
+    text-align: center;
+}
+aside>div>p{
+    background-color: red;
+    text-align: center;
+    color: yellow;
+}
+aside>div{
+    border: 1px solid red;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.tin{
+    color: red;
+}
+   
